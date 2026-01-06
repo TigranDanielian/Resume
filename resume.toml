@@ -1,0 +1,545 @@
+# Multilanguage Resume Data
+# Language-specific properties use format: "propertyName.language"
+
+# Common properties (no language suffix)
+pageTitle = "Resume Page"
+avatar = "avatar.jpg"
+
+# Multilanguage properties
+"firstName.ru" = "Тигран"
+"firstName.en" = "Tigran"
+"lastName.ru" = "Хачатрян"
+"lastName.en" = "Khachatrian"
+
+jobTitle = "iOS Developer"
+
+location = "Moscow, Russia"
+email = "tigrandanielian@gmail.com"
+subtitle = "5 years of experience  Building apps from scratch"
+
+"about.ru" = """
+5 лет опыта в разработке iOS-приложений
+• Поддержка и развитие **более 5 активных приложений**
+• Опыт работы в аутсорсе, создание приложений с нуля до релиза
+• Работал с различными архитектурами: **MVVM, Coordinator, Clean Architecture**
+• Большой опыт **реактивного программирования** (RxSwift, RxDataSources)
+• Руководство командой разработчиков, менторинг, код-ревью
+"""
+
+"about.en" = """
+5 years of iOS development experience
+• Supporting and developing **more than 5 active applications**
+• Experience in outsourcing, building applications from scratch to release
+• Worked with various architectures: **MVVM, Coordinator, Clean Architecture**
+• Extensive experience in **reactive programming** (RxSwift, RxDataSources)
+• Leading development teams, mentoring, code reviews
+"""
+
+"expectation.ru" = """
+• Возможность работать над интересными проектами
+• Готов к **лидерству** команды, но продолжаю **писать код**
+• **Неформальная коммуникация** в команде
+• Интерес к проектам на основе технологии **AR** и игровым приложениям
+• Готов к переезду и командировкам
+"""
+
+"expectation.en" = """
+• Opportunity to work on interesting projects
+• Ready to **lead** a team, but continue **writing code**
+• **Informal communication** in the team
+• Interest in **AR** technology projects and game applications
+• Ready to relocate and travel
+"""
+
+"skillsIntro.ru" = "Перечислены только практические навыки"
+"skillsIntro.en" = "Only practical skills are listed"
+
+"extraSkills.ru" = """
+• **Публикация в App Store** и управление App Store Connect
+• **Mobile DevOps** — Fastlane, автоматизация сборки и релизов
+• **Backend Driven UI** — реализация интерфейса, управляемого сервером
+• **Аудио/видео** плееры с поддержкой фонового режима и AirPlay
+• **GIS** системы и картография (Mapbox, Google Maps, Yandex Maps)
+• **Модуляризация** проектов и декомпозиция кодовой базы
+"""
+
+"extraSkills.en" = """
+• **App Store publishing** and App Store Connect management
+• **Mobile DevOps** — Fastlane, build and release automation
+• **Backend Driven UI** — server-driven interface implementation
+• **Audio/video** players with background mode and AirPlay support
+• **GIS** systems and cartography (Mapbox, Google Maps)
+• **Modularization** of projects and codebase decomposition
+"""
+
+"interests.ru" = """
+Занимаюсь профессиональной разработкой мобильных приложений с 2020 года.
+Активно использую разные паттерны программирования, следую принципам **SOLID, DRY, KISS**.
+На данный момент работаю над собственными приложениями и прохожу курс **iOS LEAD ESSENTIALS PROGRAM** от Essential Developers
+Заинтересован в проектах на основе технологии **AR**, а также в игровых приложениях.
+"""
+
+"interests.en" = """
+I've been professionally developing mobile applications since 2020.
+I actively use various programming patterns, following **SOLID, DRY, KISS** principles.
+Currently working on my own applications and taking the **iOS LEAD ESSENTIALS PROGRAM** from Essential Developers.
+Interested in **AR** technology projects and game applications.
+"""
+
+[[references]]
+type = "website"
+url = "https://www.linkedin.com/in/tigran-khachatryan-760536ab"
+text = "linkedin.com/in/tigran-khachatryan-760536ab"
+
+[[references]]
+type = "phone"
+url = "tel:+79168793997"
+text = "+7 (916) 879-39-97"
+
+############################################
+################# Languages ################
+############################################
+
+[[languages]]
+name = "Russian"
+level = "Native"
+
+[[languages]]
+name = "English"
+level = "B2"
+
+[[languages]]
+name = "Armenian"
+level = "B1"
+
+############################################
+################### Skills #################
+############################################
+
+[[skills]]
+category = "iOS Development"
+keywords = [
+    "Swift",
+    "SwiftUI",
+    "UIKit",
+    "GCD",
+    "ARC",
+    "Concurrency",
+    "Async/Await",
+    "Foundation",
+    "AVKit",
+    "AVFoundation",
+    "WebKit",
+    "CoreAnimation"
+]
+
+[[skills]]
+category = "DevOps & Infrastructure"
+keywords = [
+    "CocoaPods",
+    "Fastlane",
+    "Git",
+    "CI/CD",
+    "App Store Connect",
+    "TestFlight",
+    "Firebase App Distribution"
+]
+
+[[skills]]
+category = "SDKs & Frameworks"
+keywords = [
+    "CoreData",
+    "Realm",
+    "Mapbox",
+    "Google Maps API",
+    "OneSignal",
+    "RxSwift",
+    "RxDataSources",
+    "Firebase",
+    "YandexMaps",
+    "Yandex Mobile Metrica",
+    "R.Swift",
+]
+
+[[skills]]
+category = "Architecture & Patterns"
+keywords = [
+    "MVVM",
+    "MVC",
+    "MVP",
+    "VIPER",
+    "Coordinator",
+    "Clean Architecture",
+    "SOLID",
+    "OOP",
+    "Design Patterns",
+    "GoF Patterns",
+    "TCA",
+    "BDUI",
+]
+
+[[skills]]
+category = "Tools"
+keywords = ["Xcode", "Instruments", "Git", "Jira", "REST API", "JSON API"]
+
+[[skills]]
+category = "Additional"
+keywords = [
+    "HTML",
+    "SQLite",
+    "MySQL",
+    "Testing",
+    "Mentoring",
+    "Code Review",
+    "Project Management",
+]
+
+############################################
+################# Колос ###################
+############################################
+
+[[experience]]
+position = "Senior iOS Developer"
+company = "ООО \"Колос\""
+period = "Aug 2025 — Present"
+
+"about.ru" = "Приложение сети аптек"
+"about.en" = "Pharmacy chain application"
+
+"responsibilities.ru" = """
+Разработка и поддержка мобильного приложения сети аптек
+• Работа над функциональностью приложения: разработка новых фич, поддержка и оптимизация существующих
+• Изучение и применение **внутренних SOA библиотек** компании на основе **RxSwift**
+• Разработка и внедрение собственной **библиотеки для скелетной загрузки** по всему приложению
+• **Рефакторинг** и модернизация UI компонентов для улучшения производительности и пользовательского опыта
+• Добавление и настройка новых **инструментов аналитики** для отслеживания поведения пользователей
+• Участие в планировании задач, код-ревью и обсуждении архитектурных решений
+"""
+
+"responsibilities.en" = """
+Development and support of pharmacy chain mobile application
+• Working on application functionality: developing new features, supporting and optimizing existing ones
+• Learning and applying company's **internal SOA libraries** based on **RxSwift**
+• Development and implementation of custom **skeleton loading library** across the entire application
+• **Refactoring** and modernization of UI components to improve performance and user experience
+• Adding and configuring new **analytics tools** for tracking user behavior
+• Participating in task planning, code reviews and architectural discussions
+"""
+
+"achievements.ru" = """
+• Разработка и внедрение переиспользуемой библиотеки для скелетной загрузки
+• Успешное применение внутренних SOA библиотек компании
+• Модернизация UI компонентов и улучшение производительности приложения
+• Внедрение новых инструментов аналитики
+"""
+
+"achievements.en" = """
+• Development and implementation of reusable skeleton loading library
+• Successful application of company's internal SOA libraries
+• Modernization of UI components and application performance improvement
+• Implementation of new analytics tools
+"""
+
+############################################
+################# Синергия ################
+############################################
+
+[[experience]]
+position = "Senior iOS Engineer"
+company = "АО Синергия"
+period = "Oct 2023 — May 2025"
+
+"about.ru" = "Приложение бесконтактной заправки"
+"about.en" = "Contactless fueling application"
+
+"responsibilities.ru" = """
+Поддержка, обновление и оптимизация существующего приложения
+• Миграция архитектуры на **MVVM + RxSwift**, улучшение читаемости и расширяемости кода
+• Удаление избыточных сторонних библиотек с заменой на нативные решения Apple
+• Поиск и устранение утечек памяти, профилирование с использованием **Instruments**
+• Оптимизация работы с сетевыми запросами: уменьшение количества обращений, внедрение кэширования
+• **Модуляризация** и декомпозиция проекта: вынос функционала в отдельные сборки и слои
+• Полная переработка системы **Push-уведомлений** с переходом на OneSignal
+
+Проектирование и реализация нового функционала
+• Внедрение и улучшение ключевого процесса — **бесконтактная заправка** с контролем статуса и ошибок
+• Интеграция оплаты через **СБП** и других способов оплаты, включая сохранение и повторное использование карт
+• **Анимации** и взаимодействия при активации программы лояльности, улучшение UX
+• Оптимизация загрузки и отрисовки **карты АЗС**: ускорение рендеринга, lazy-загрузка данных
+• Обработка нестабильной сети: сохранение текущего состояния с последующим восстановлением после перезапуска
+
+Автоматизация процессов и DevOps-задачи
+• Внедрение **Fastlane** (на Swift): автоматическая сборка, подписание, выгрузка в App Store
+• Настройка уведомлений в Jira и Discord при публикации
+• Управление **App Store Connect**: сертификаты, provisioning profiles, TestFlight, релизные ветки
+"""
+
+"responsibilities.en" = """
+Support, update and optimization of existing application
+• Architecture migration to **MVVM + RxSwift**, improving code readability and extensibility
+• Removing redundant third-party libraries, replacing them with native Apple solutions
+• Finding and fixing memory leaks, profiling using **Instruments**
+• Optimizing network requests: reducing number of calls, implementing caching
+• **Modularization** and decomposition of the project: extracting functionality into separate builds and layers
+• Complete redesign of **Push notifications** system with transition to OneSignal
+
+Design and implementation of new functionality
+• Implementation and improvement of key process — **contactless fueling** with status and error control
+• Integration of payment via **SBP** and other payment methods, including saving and reusing cards
+• **Animations** and interactions when activating loyalty program, improving UX
+• Optimization of loading and rendering of **gas station map**: faster rendering, lazy data loading
+• Handling unstable network: saving current state with subsequent recovery after restart
+
+Process automation and DevOps tasks
+• Implementation of **Fastlane** (on Swift): automatic build, signing, upload to App Store
+• Setting up notifications in Jira and Discord on publication
+• Managing **App Store Connect**: certificates, provisioning profiles, TestFlight, release branches
+"""
+
+"achievements.ru" = """
+• Успешная миграция архитектуры на **MVVM + RxSwift**
+• Оптимизация производительности приложения и устранение утечек памяти
+• Внедрение автоматизации процессов сборки и релиза через **Fastlane**
+• Улучшение UX и стабильности приложения
+"""
+
+"achievements.en" = """
+• Successful architecture migration to **MVVM + RxSwift**
+• Application performance optimization and memory leak fixes
+• Implementation of build and release process automation via **Fastlane**
+• UX and application stability improvements
+"""
+
+############################################
+################# iPartner Lead ############
+############################################
+
+[[experience]]
+position = "Lead iOS Developer"
+company = "iPartner"
+period = "Oct 2022 — Oct 2023"
+
+"about.ru" = "Аутсорс • Разработка под ключ"
+"about.en" = "Outsourcing • Turn-key development"
+
+"responsibilities.ru" = """
+Руководство командой из **3 iOS-разработчиков**
+• Организация рабочего процесса, планирование задач, распределение ответственности внутри команды
+• Проведение регулярных **код-ревью**, отслеживание качества и соответствия код-стайлу
+• **Менторинг** младших разработчиков, помощь в освоении архитектурных паттернов, best practices и инструментов
+
+🏗 Проектирование архитектуры мобильных приложений
+• Разработка архитектурных решений с использованием **MVVM, Coordinator, DI** и модульного подхода
+• Выстраивание масштабируемой и тестируемой архитектуры с акцентом на переиспользуемость и слабую связность
+
+Полный цикл разработки приложений с нуля до релиза
+• Реализация нескольких приложений с нуля: от проработки концепции и UI/UX до публикации в **App Store**
+• Настройка **CI/CD, Fastlane**, сертификатов и provisioning profiles
+• Сопровождение приложений после релиза: фиксы, аналитика, оптимизация
+
+Разработка общих модулей и компонентов
+• Создание библиотек, UI-компонентов и инфраструктурных модулей, переиспользуемых в нескольких проектах
+• Вынесение общего функционала (сеть, авторизация, аналитика, обработка ошибок) в отдельные слои и пакеты
+"""
+
+"responsibilities.en" = """
+Leading a team of **3 iOS developers**
+• Organizing workflow, task planning, responsibility distribution within the team
+• Conducting regular **code reviews**, tracking quality and code style compliance
+• **Mentoring** junior developers, helping them master architectural patterns, best practices and tools
+
+🏗 Designing mobile application architecture
+• Developing architectural solutions using **MVVM, Coordinator, DI** and modular approach
+• Building scalable and testable architecture with focus on reusability and loose coupling
+
+Full application development cycle from scratch to release
+• Implementation of several applications from scratch: from concept and UI/UX development to **App Store** publishing
+• Setting up **CI/CD, Fastlane**, certificates and provisioning profiles
+• Application maintenance after release: fixes, analytics, optimization
+
+Development of common modules and components
+• Creating libraries, UI components and infrastructure modules reusable across multiple projects
+• Extracting common functionality (network, authorization, analytics, error handling) into separate layers and packages
+"""
+
+"achievements.ru" = """
+• Успешное руководство командой разработчиков
+• Создание нескольких приложений с нуля до публикации в App Store
+• Разработка переиспользуемых модулей и компонентов
+• Настройка процессов разработки и CI/CD
+"""
+
+"achievements.en" = """
+• Successful leadership of development team
+• Creating several applications from scratch to App Store publication
+• Development of reusable modules and components
+• Setting up development processes and CI/CD
+"""
+
+############################################
+################# iPartner Middle ##########
+############################################
+
+[[experience]]
+position = "Middle iOS Developer"
+company = "iPartner"
+period = "Dec 2021 — Oct 2022"
+
+"about.ru" = "Аутсорс • Разработка под ключ"
+"about.en" = "Outsourcing • Turn-key development"
+
+"responsibilities.ru" = """
+Поддержка и развитие нескольких мобильных приложений
+• Участвовал в поддержке и развитии существующих iOS-приложений: исправление багов, оптимизация и улучшение стабильности
+• Внедрял новые сценарии взаимодействия пользователя, улучшал UX в соответствии с бизнес-требованиями и аналитикой
+
+Проектирование и разработка нового функционала с нуля
+• Реализовывал сложные экраны и модули, взаимодействующие с backend API
+• Внедрял архитектурные паттерны (**MVVM, Coordinator**), обеспечивая масштабируемость и читаемость кода
+• Работал с **Push-уведомлениями**, deeplink-ами, локализацией и адаптацией под различные размеры экрана
+
+Рефакторинг и модернизация кодовой базы
+• Удалял дублирующийся код, повышал модульность и переиспользуемость компонентов
+• Обновлял сторонние библиотеки и SDK до актуальных версий
+
+Оптимизация производительности
+• Проводил профилирование приложения с помощью **Instruments** (Time Profiler, Memory Graph)
+• Устранял утечки памяти, оптимизировал загрузку экранов и работу со списками
+• Внедрил lazy-загрузку и кэширование контента для ускорения взаимодействия пользователя с приложением
+"""
+
+"responsibilities.en" = """
+Support and development of several mobile applications
+• Participated in support and development of existing iOS applications: bug fixes, optimization and stability improvements
+• Implemented new user interaction scenarios, improved UX according to business requirements and analytics
+
+Design and development of new functionality from scratch
+• Implemented complex screens and modules interacting with backend API
+• Introduced architectural patterns (**MVVM, Coordinator**), ensuring scalability and code readability
+• Worked with **Push notifications**, deeplinks, localization and adaptation to various screen sizes
+
+Refactoring and modernization of codebase
+• Removed duplicate code, increased modularity and component reusability
+• Updated third-party libraries and SDKs to current versions
+
+Performance optimization
+• Profiled applications using **Instruments** (Time Profiler, Memory Graph)
+• Fixed memory leaks, optimized screen loading and list performance
+• Implemented lazy loading and content caching to speed up user interaction with the application
+"""
+
+"achievements.ru" = """
+**Ключевые проекты:**
+• **Backend Driven UI** — реализация интерфейса, полностью управляемого сервером. Работа с JSON-описанием экранов и компонентов. Обеспечивал динамическую сборку UI без обновления приложения
+• **Аудио- и видеоплеер** — интеграция кастомного медиаплеера с поддержкой фонового режима, управления с блокировки экрана и AirPlay. Обработка потокового вещания (HLS), кеширование контента и взаимодействие с AVFoundation
+• **Сервис бронирования и покупки туров** на горнолыжный курорт — реализация полноценного сценария бронирования, оплаты проживания и дополнительных услуг. Разработка корзины, интеграция с платёжными шлюзами и календарными виджетами
+• **Каталог автозапчастей** — модуль поиска, фильтрации и покупки автозапчастей с доставкой. Поддержка barcode-сканера, сохранение избранных товаров, интеграция с внешним API логистики
+"""
+
+"achievements.en" = """
+**Key projects:**
+• **Backend Driven UI** — implementation of interface fully managed by server. Working with JSON description of screens and components. Ensured dynamic UI assembly without app update
+• **Audio and video player** — integration of custom media player with background mode support, lock screen controls and AirPlay. Handling streaming (HLS), content caching and interaction with AVFoundation
+• **Tour booking and purchase service** for ski resort — implementation of full booking scenario, accommodation payment and additional services. Shopping cart development, integration with payment gateways and calendar widgets
+• **Auto parts catalog** — search, filtering and purchase module for auto parts with delivery. Barcode scanner support, saving favorite items, integration with external logistics API
+"""
+
+############################################
+################# iPartner Junior ##########
+############################################
+
+[[experience]]
+position = "Junior iOS Developer"
+company = "iPartner"
+period = "Aug 2020 — Dec 2021"
+
+"about.ru" = "Аутсорс • Разработка под ключ"
+"about.en" = "Outsourcing • Turn-key development"
+
+"responsibilities.ru" = """
+Обучение, рост и практическое применение фундаментальных знаний
+
+Изучение архитектур и паттернов проектирования
+• Ознакомление с различными архитектурными подходами в iOS-разработке: **MVC, MVVM, VIPER, Clean Architecture**
+• Изучение и практическое применение паттернов проектирования **GoF** (Factory, Singleton, Decorator, Strategy и др.) в повседневных задачах
+• Построение зависимостей и слабосвязанных компонентов с использованием **Dependency Injection** (в т.ч. через Swinject)
+
+Глубокое понимание iOS-фреймворков и инструментов
+• Работа с **Foundation** и **UIKit** на низком уровне: кастомные вью, обработка событий, адаптивная верстка
+• Использование **GCD** и OperationQueue для организации многопоточности
+• Работа с **URLSession** для построения сетевого слоя, в том числе с поддержкой авторизации и обработки ошибок
+• Применение **RxSwift** для реактивного программирования, обработки событий UI, сетевых запросов и состояния
+
+Поддержка и развитие существующих проектов
+• Участие в поддержке приложений на разных стадиях жизненного цикла
+• Внедрение улучшений, исправление багов, участие в анализе и планировании изменений
+• Переход от устаревших решений к современным практикам (рефакторинг, обновление зависимостей, улучшение UX/UI)
+"""
+
+"responsibilities.en" = """
+Learning, growth and practical application of fundamental knowledge
+
+Studying architectures and design patterns
+• Familiarization with various architectural approaches in iOS development: **MVC, MVVM, VIPER, Clean Architecture**
+• Learning and practical application of **GoF** design patterns (Factory, Singleton, Decorator, Strategy, etc.) in daily tasks
+• Building dependencies and loosely coupled components using **Dependency Injection** (including via Swinject)
+
+Deep understanding of iOS frameworks and tools
+• Working with **Foundation** and **UIKit** at low level: custom views, event handling, adaptive layout
+• Using **GCD** and OperationQueue for concurrency organization
+• Working with **URLSession** for building network layer, including authorization and error handling support
+• Applying **RxSwift** for reactive programming, UI event handling, network requests and state management
+
+Support and development of existing projects
+• Participation in support of applications at different lifecycle stages
+• Implementing improvements, fixing bugs, participating in analysis and change planning
+• Transition from outdated solutions to modern practices (refactoring, dependency updates, UX/UI improvements)
+"""
+
+"achievements.ru" = """
+• Освоение фундаментальных знаний iOS-разработки
+• Практическое применение различных архитектурных паттернов
+• Успешная работа с реактивным программированием (RxSwift)
+• Активное участие в поддержке и развитии проектов
+"""
+
+"achievements.en" = """
+• Mastering fundamental iOS development knowledge
+• Practical application of various architectural patterns
+• Successful work with reactive programming (RxSwift)
+• Active participation in project support and development
+"""
+
+############################################
+################# Projects #################
+############################################
+
+# Projects section can be added if needed
+# [[projects]]
+# title = "Project Name"
+# link = "https://..."
+# "description.ru" = "Описание проекта"
+# "description.en" = "Project description"
+
+############################################
+################ Education #################
+############################################
+
+[[education]]
+period = "2006 - 2012"
+
+"degree.ru" = "Высшее образование"
+"degree.en" = "Higher education"
+
+"university.ru" = "Московский финансово-промышленный университет \"Синергия\", Факультет информационных технологий. Информатик, Программное обеспечение вычислительной техники и автоматизированных систем"
+"university.en" = "Moscow Financial-Industrial University \"Synergy\", Faculty of Information Technology. Computer Science, Software for Computing and Automated Systems"
+
+[[education]]
+period = "2002 - 2006"
+
+"degree.ru" = "Среднее специальное образование"
+"degree.en" = "Secondary specialized education"
+
+"university.ru" = "Московский математический колледж. Прикладная математика и информатика"
+"university.en" = "Moscow Mathematical College. Applied Mathematics and Computer Science"
+
