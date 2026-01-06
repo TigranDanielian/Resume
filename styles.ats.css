@@ -1,3 +1,6 @@
+/* ==================== Font Import ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
 /* ==================== ATS View Mode Styles ==================== */
 body[data-view-mode="ats-friendly"] {
     background: #f0f2f8;
@@ -26,7 +29,7 @@ body[data-view-mode="ats-friendly"] .ats-layout {
     background-color: #ffffff;
     color: #111111;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Times New Roman', Garamond, Verdana, sans-serif;
+    font-family: 'Inter', 'Times New Roman', Garamond, Verdana, sans-serif;
     font-size: 11pt;
     line-height: 1.5;
     text-size-adjust: 100%;
