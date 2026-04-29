@@ -240,6 +240,14 @@ Development and support of pharmacy chain mobile application
 • Implementation of new analytics tools
 """
 
+[[experience.links]]
+title = "Госаптека 18"
+url = "https://apps.apple.com/us/app/госаптека-18/id1569002313"
+
+[[experience.links]]
+title = "Аптека Озерки — заказ онлайн"
+url = "https://apps.apple.com/us/app/аптека-озерки-заказ-онлайн/id1440139559"
+
 ############################################
 ################# Синергия ################
 ############################################
@@ -375,6 +383,26 @@ Development of common modules and components
 • Development of reusable modules and components
 • Setting up development processes and CI/CD
 """
+
+[[experience.links]]
+title = "TopDetal магазин автозапчастей"
+url = "https://apps.apple.com/ru/app/topdetal-магазин-автозапчастей/id6468933528"
+
+[[experience.links]]
+title = "Лекторий «Достоевский»"
+url = "https://apps.apple.com/ru/app/лекторий-достоевский/id1513138478"
+
+[[experience.links]]
+title = "ФДМ"
+url = "https://apps.apple.com/us/app/фдм/id6479255211"
+
+[[experience.links]]
+title = "НБКИ Онлайн"
+url = "https://apps.apple.com/us/app/нбки-онлайн/id1546378476"
+
+[[experience.links]]
+title = "Личный кабинет \"Бизнес-юрист\""
+url = "https://apps.apple.com/us/app/личный-кабинет-бизнес-юрист/id6736439282"
 
 ############################################
 ################# iPartner Middle ##########
