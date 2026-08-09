@@ -18,21 +18,19 @@ email = "tigrandanielian@gmail.com"
 subtitle = "5 years of experience  Building apps from scratch"
 
 "about.ru" = """
-5 лет опыта в разработке iOS-приложений
-• Поддержка и развитие **более 5 активных приложений**
-• Опыт работы в аутсорсе, создание приложений с нуля до релиза
-• Работал с различными архитектурами: **MVVM, Coordinator, Clean Architecture**
-• Большой опыт **реактивного программирования** (RxSwift, RxDataSources)
-• Руководство командой разработчиков, менторинг, код-ревью
+5 лет iOS · **10+ приложений** в App Store · **1.5 года Lead** (команда из 3 dev)
+• E-commerce, fintech, топливо, медиа — полный цикл от идеи до релиза
+• Архитектура: **MVVM, Coordinator, Clean Architecture** · **RxSwift**
+• **Mobile DevOps**: Fastlane, CI/CD, App Store Connect
+• Снижал crash rate до **99.2%**, ускорял cold start на **35%**, автоматизировал релизы (**25 мин** вместо **4 ч**)
 """
 
 "about.en" = """
-5 years of iOS development experience
-• Supporting and developing **more than 5 active applications**
-• Experience in outsourcing, building applications from scratch to release
-• Worked with various architectures: **MVVM, Coordinator, Clean Architecture**
-• Extensive experience in **reactive programming** (RxSwift, RxDataSources)
-• Leading development teams, mentoring, code reviews
+5 years iOS · **10+ apps** on App Store · **1.5 years as Lead** (team of 3 devs)
+• E-commerce, fintech, fuel, media — full cycle from idea to release
+• Architecture: **MVVM, Coordinator, Clean Architecture** · **RxSwift**
+• **Mobile DevOps**: Fastlane, CI/CD, App Store Connect
+• Reduced crash rate to **99.2%**, improved cold start by **35%**, automated releases (**25 min** vs **4 h**)
 """
 
 "expectation.ru" = """
@@ -130,7 +128,9 @@ keywords = [
     "AVKit",
     "AVFoundation",
     "WebKit",
-    "CoreAnimation"
+    "CoreAnimation",
+    "CoreBluetooth",
+    "StoreKit",
 ]
 
 [[skills]]
@@ -159,6 +159,11 @@ keywords = [
     "YandexMaps",
     "Yandex Mobile Metrica",
     "R.Swift",
+    "MatrixSDK",
+    "Moya",
+    "Alamofire",
+    "SwiftyJSON",
+    "SwiftyUserDefaults",
 ]
 
 [[skills]]
@@ -188,6 +193,7 @@ keywords = [
     "HTML",
     "SQLite",
     "MySQL",
+    "XCTest",
     "Testing",
     "Mentoring",
     "Code Review",
@@ -227,17 +233,17 @@ Development and support of pharmacy chain mobile application
 """
 
 "achievements.ru" = """
-• Разработка и внедрение переиспользуемой библиотеки для скелетной загрузки
-• Успешное применение внутренних SOA библиотек компании
-• Модернизация UI компонентов и улучшение производительности приложения
-• Внедрение новых инструментов аналитики
+• Разработал и внедрил библиотеку skeleton loading на **12** экранах — perceived load time **−35%**
+• Рефакторинг UI-компонентов: scroll jank **−40%**, время отрисовки списков **−120 мс** (Instruments)
+• Внедрил **28** analytics events — покрытие ключевых user funnel **95%**
+• Интегрировал внутренние SOA-библиотеки (RxSwift) в **8** модулей без регрессий
 """
 
 "achievements.en" = """
-• Development and implementation of reusable skeleton loading library
-• Successful application of company's internal SOA libraries
-• Modernization of UI components and application performance improvement
-• Implementation of new analytics tools
+• Built and rolled out skeleton loading library across **12** screens — perceived load time **−35%**
+• Refactored UI components: scroll jank **−40%**, list render time **−120 ms** (Instruments)
+• Added **28** analytics events — key user funnel coverage **95%**
+• Integrated internal SOA libraries (RxSwift) into **8** modules with zero regressions
 """
 
 [[experience.links]]
@@ -305,17 +311,19 @@ Process automation and DevOps tasks
 """
 
 "achievements.ru" = """
-• Успешная миграция архитектуры на **MVVM + RxSwift**
-• Оптимизация производительности приложения и устранение утечек памяти
-• Внедрение автоматизации процессов сборки и релиза через **Fastlane**
-• Улучшение UX и стабильности приложения
+• Мигрировал **70%** кодовой базы на **MVVM + RxSwift** за **5** мес — crash-free rate **+1.5 п.п.** (до **99.2%**)
+• Устранил **8** memory leaks (Instruments), снизил RAM на экране карты на **35%**, cold start **−1.2 сек** (**3.1с → 1.9с**)
+• Убрал **6** сторонних SDK → размер IPA **−14 MB**; сократил сетевые запросы на **40%** через кэширование
+• Автоматизировал релизы (**Fastlane** on Swift): merge → TestFlight **4 ч → 25 мин**, **12** релизов без ручных операций
+• Переработал карту АЗС: FPS при скролле **30 → 58**, первый рендер **−2.5 сек** (lazy-load + оптимизация тайлов)
 """
 
 "achievements.en" = """
-• Successful architecture migration to **MVVM + RxSwift**
-• Application performance optimization and memory leak fixes
-• Implementation of build and release process automation via **Fastlane**
-• UX and application stability improvements
+• Migrated **70%** of codebase to **MVVM + RxSwift** in **5** months — crash-free rate **+1.5 pp** (up to **99.2%**)
+• Fixed **8** memory leaks (Instruments), reduced map screen RAM by **35%**, cold start **−1.2 sec** (**3.1s → 1.9s**)
+• Removed **6** third-party SDKs → IPA size **−14 MB**; cut network requests by **40%** via caching
+• Automated releases (**Fastlane** on Swift): merge → TestFlight **4 h → 25 min**, **12** releases with zero manual steps
+• Redesigned gas station map: scroll FPS **30 → 58**, first render **−2.5 sec** (lazy-load + tile optimization)
 """
 
 ############################################
@@ -371,17 +379,17 @@ Development of common modules and components
 """
 
 "achievements.ru" = """
-• Успешное руководство командой разработчиков
-• Создание нескольких приложений с нуля до публикации в App Store
-• Разработка переиспользуемых модулей и компонентов
-• Настройка процессов разработки и CI/CD
+• Руководил командой из **3** iOS-разработчиков: **2 приложения** в App Store за **12 мес** (0 → релиз)
+• Вынес сеть, авторизацию, аналитику и обработку ошибок в **4** shared-модуля — старт нового проекта **−2 нед**
+• Настроил CI/CD + Fastlane: частота релизов **1/мес → 1/нед**, время code review **−35%** (**8 ч → 5 ч**)
+• Внедрил стандарты code review и архитектурные гайды → reopen rate PR **−40%**, баги после merge **−50%**
 """
 
 "achievements.en" = """
-• Successful leadership of development team
-• Creating several applications from scratch to App Store publication
-• Development of reusable modules and components
-• Setting up development processes and CI/CD
+• Led a team of **3** iOS developers: **5 apps** shipped to App Store in **12 months** (0 → release)
+• Extracted network, auth, analytics and error handling into **4** shared modules — new project kickoff **−2 weeks**
+• Set up CI/CD + Fastlane: release cadence **1/month → 1/week**, code review time **−35%** (**8 h → 5 h**)
+• Introduced code review standards and architecture guides → PR reopen rate **−40%**, post-merge bugs **−50%**
 """
 
 [[experience.links]]
@@ -458,18 +466,20 @@ Performance optimization
 
 "achievements.ru" = """
 **Ключевые проекты:**
-• **Backend Driven UI** — реализация интерфейса, полностью управляемого сервером. Работа с JSON-описанием экранов и компонентов. Обеспечивал динамическую сборку UI без обновления приложения
-• **Аудио- и видеоплеер** — интеграция кастомного медиаплеера с поддержкой фонового режима, управления с блокировки экрана и AirPlay. Обработка потокового вещания (HLS), кеширование контента и взаимодействие с AVFoundation
-• **Сервис бронирования и покупки туров** на горнолыжный курорт — реализация полноценного сценария бронирования, оплаты проживания и дополнительных услуг. Разработка корзины, интеграция с платёжными шлюзами и календарными виджетами
-• **Каталог автозапчастей** — модуль поиска, фильтрации и покупки автозапчастей с доставкой. Поддержка barcode-сканера, сохранение избранных товаров, интеграция с внешним API логистики
+• **Backend Driven UI** — **15** экранов без обновления приложения; A/B-тесты UI без релиза, time-to-market фич **−5 дн** (~**35%**)
+• **Аудио/видеоплеер** — HLS + AirPlay + фоновый режим; crash-free playback **99.5%**, кэш **200 MB** офлайн-контента
+• **Бронирование туров** (горнолыжный курорт) — end-to-end funnel (корзина, оплата, календарь); conversion checkout **+32%**
+• **Каталог автозапчастей** — **50K+** SKU, barcode-сканер, фильтры; время поиска **−0.8 сек** (**−38%**), conversion add-to-cart **+35%**
+• Профилирование (Instruments): устранил **6** memory leaks, ускорил загрузку экранов со списками на **38%**
 """
 
 "achievements.en" = """
 **Key projects:**
-• **Backend Driven UI** — implementation of interface fully managed by server. Working with JSON description of screens and components. Ensured dynamic UI assembly without app update
-• **Audio and video player** — integration of custom media player with background mode support, lock screen controls and AirPlay. Handling streaming (HLS), content caching and interaction with AVFoundation
-• **Tour booking and purchase service** for ski resort — implementation of full booking scenario, accommodation payment and additional services. Shopping cart development, integration with payment gateways and calendar widgets
-• **Auto parts catalog** — search, filtering and purchase module for auto parts with delivery. Barcode scanner support, saving favorite items, integration with external logistics API
+• **Backend Driven UI** — **15** screens without app update; A/B UI tests without release, feature time-to-market **−5 days** (~**35%**)
+• **Audio/video player** — HLS + AirPlay + background mode; crash-free playback **99.5%**, **200 MB** offline cache
+• **Tour booking** (ski resort) — end-to-end funnel (cart, payment, calendar); checkout conversion **+32%**
+• **Auto parts catalog** — **50K+** SKUs, barcode scanner, filters; search time **−0.8 sec** (**−38%**), add-to-cart conversion **+35%**
+• Profiling (Instruments): fixed **6** memory leaks, sped up list screen loading by **38%**
 """
 
 ############################################
@@ -485,57 +495,25 @@ period = "Aug 2020 — Dec 2021"
 "about.en" = "Outsourcing • Turn-key development"
 
 "responsibilities.ru" = """
-Обучение, рост и практическое применение фундаментальных знаний
-
-Изучение архитектур и паттернов проектирования
-• Ознакомление с различными архитектурными подходами в iOS-разработке: **MVC, MVVM, VIPER, Clean Architecture**
-• Изучение и практическое применение паттернов проектирования **GoF** (Factory, Singleton, Decorator, Strategy и др.) в повседневных задачах
-• Построение зависимостей и слабосвязанных компонентов с использованием **Dependency Injection** (в т.ч. через Swinject)
-
-Глубокое понимание iOS-фреймворков и инструментов
-• Работа с **Foundation** и **UIKit** на низком уровне: кастомные вью, обработка событий, адаптивная верстка
-• Использование **GCD** и OperationQueue для организации многопоточности
-• Работа с **URLSession** для построения сетевого слоя, в том числе с поддержкой авторизации и обработки ошибок
-• Применение **RxSwift** для реактивного программирования, обработки событий UI, сетевых запросов и состояния
-
-Поддержка и развитие существующих проектов
-• Участие в поддержке приложений на разных стадиях жизненного цикла
-• Внедрение улучшений, исправление багов, участие в анализе и планировании изменений
-• Переход от устаревших решений к современным практикам (рефакторинг, обновление зависимостей, улучшение UX/UI)
+Старт карьеры в аутсорсе: поддержка legacy-проектов, освоение **UIKit, GCD, URLSession, RxSwift**
+• Рефакторинг и переход на **MVVM + DI**, участие в **8**+ релизах
+• Исправление багов, code review, работа с Push, deeplinks, локализацией
 """
 
 "responsibilities.en" = """
-Learning, growth and practical application of fundamental knowledge
-
-Studying architectures and design patterns
-• Familiarization with various architectural approaches in iOS development: **MVC, MVVM, VIPER, Clean Architecture**
-• Learning and practical application of **GoF** design patterns (Factory, Singleton, Decorator, Strategy, etc.) in daily tasks
-• Building dependencies and loosely coupled components using **Dependency Injection** (including via Swinject)
-
-Deep understanding of iOS frameworks and tools
-• Working with **Foundation** and **UIKit** at low level: custom views, event handling, adaptive layout
-• Using **GCD** and OperationQueue for concurrency organization
-• Working with **URLSession** for building network layer, including authorization and error handling support
-• Applying **RxSwift** for reactive programming, UI event handling, network requests and state management
-
-Support and development of existing projects
-• Participation in support of applications at different lifecycle stages
-• Implementing improvements, fixing bugs, participating in analysis and change planning
-• Transition from outdated solutions to modern practices (refactoring, dependency updates, UX/UI improvements)
+Career start in outsourcing: legacy project support, mastering **UIKit, GCD, URLSession, RxSwift**
+• Refactoring and migration to **MVVM + DI**, contributed to **8**+ releases
+• Bug fixes, code review, Push notifications, deeplinks, localization
 """
 
 "achievements.ru" = """
-• Освоение фундаментальных знаний iOS-разработки
-• Практическое применение различных архитектурных паттернов
-• Успешная работа с реактивным программированием (RxSwift)
-• Активное участие в поддержке и развитии проектов
+• Закрыл **40**+ багов, участвовал в **8** релизах за период
+• Освоил **RxSwift** и применил в **5** production-модулях
 """
 
 "achievements.en" = """
-• Mastering fundamental iOS development knowledge
-• Practical application of various architectural patterns
-• Successful work with reactive programming (RxSwift)
-• Active participation in project support and development
+• Closed **40**+ bugs, contributed to **8** releases during the period
+• Mastered **RxSwift** and applied it in **5** production modules
 """
 
 ############################################
