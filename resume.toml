@@ -23,6 +23,9 @@ subtitle = "5 years of experience  Building apps from scratch"
 • Архитектура: **MVVM, Coordinator, Clean Architecture** · **RxSwift**
 • **Mobile DevOps**: Fastlane, CI/CD, App Store Connect
 • Снижал crash rate до **99.2%**, ускорял cold start на **35%**, автоматизировал релизы (**25 мин** вместо **4 ч**)
+• Ежедневно работаю в **Cursor** и **Codex**: быстрее закрываю фичи и рефакторинг, архитектуру и ревью держу на себе
+• Спроектировал систему AI-агентов для фулстэк-разработки и собрал на ней **JazzGuide** и **Esse Jazz Club**: iOS (**SwiftUI**), backend (**FastAPI**, **PostgreSQL**) и деплой на VPS (**Docker**, **Caddy**)
+• Закрываю не только клиент, но и **backend** и **DevOps**
 """
 
 "about.en" = """
@@ -31,6 +34,9 @@ subtitle = "5 years of experience  Building apps from scratch"
 • Architecture: **MVVM, Coordinator, Clean Architecture** · **RxSwift**
 • **Mobile DevOps**: Fastlane, CI/CD, App Store Connect
 • Reduced crash rate to **99.2%**, improved cold start by **35%**, automated releases (**25 min** vs **4 h**)
+• Daily work in **Cursor** and **Codex**: faster features and refactors, architecture and review stay with me
+• Designed an AI-agent system for fullstack development and built **JazzGuide** and **Esse Jazz Club** on it: iOS (**SwiftUI**), backend (**FastAPI**, **PostgreSQL**) and VPS deploy (**Docker**, **Caddy**)
+• I can own the client, **backend**, and **DevOps** — not only UI tasks
 """
 
 "expectation.ru" = """
@@ -59,6 +65,7 @@ subtitle = "5 years of experience  Building apps from scratch"
 • **Аудио/видео** плееры с поддержкой фонового режима и AirPlay
 • **GIS** системы и картография (Mapbox, Google Maps, Yandex Maps)
 • **Модуляризация** проектов и декомпозиция кодовой базы
+• **Kotlin Multiplatform (KMP)** — базовый уровень: Kotlin, общий модуль, coroutines
 """
 
 "extraSkills.en" = """
@@ -68,6 +75,7 @@ subtitle = "5 years of experience  Building apps from scratch"
 • **Audio/video** players with background mode and AirPlay support
 • **GIS** systems and cartography (Mapbox, Google Maps)
 • **Modularization** of projects and codebase decomposition
+• **Kotlin Multiplatform (KMP)** — basic level: Kotlin, shared module, coroutines
 """
 
 "interests.ru" = """
@@ -188,6 +196,18 @@ category = "Tools"
 keywords = ["Xcode", "Instruments", "Git", "Jira", "REST API", "JSON API"]
 
 [[skills]]
+category = "AI-assisted Development"
+keywords = ["Cursor", "Codex"]
+
+[[skills]]
+category = "Backend & DevOps"
+keywords = ["Python", "FastAPI", "PostgreSQL", "Docker", "Caddy"]
+
+[[skills]]
+category = "Kotlin Multiplatform"
+keywords = ["Kotlin", "KMP", "Coroutines", "expect/actual"]
+
+[[skills]]
 category = "Additional"
 keywords = [
     "HTML",
@@ -220,6 +240,7 @@ period = "Aug 2025 — Present"
 • **Рефакторинг** и модернизация UI компонентов для улучшения производительности и пользовательского опыта
 • Добавление и настройка новых **инструментов аналитики** для отслеживания поведения пользователей
 • Участие в планировании задач, код-ревью и обсуждении архитектурных решений
+• Разработка с **Cursor** и **Codex**: быстрее закрываю задачи и рефакторинг, каждый diff проверяю перед мержем
 """
 
 "responsibilities.en" = """
@@ -230,6 +251,7 @@ Development and support of pharmacy chain mobile application
 • **Refactoring** and modernization of UI components to improve performance and user experience
 • Adding and configuring new **analytics tools** for tracking user behavior
 • Participating in task planning, code reviews and architectural discussions
+• Development with **Cursor** and **Codex**: faster tasks and refactoring, I review every diff before merge
 """
 
 "achievements.ru" = """
